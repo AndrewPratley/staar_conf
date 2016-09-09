@@ -88,15 +88,6 @@ line-height: 1.3em;
   font-weight: bold;
 }
 
-#side-buy-btn {
-  background-color: #4184F3;
-  display: block;
-  margin: 3.3em auto 1em auto;
-  width: 5em;
-  font-weight: bold;
-
-}
-
 #submit-btn, #back-btn, #home-btn {
   background-color: #4184F3;
   margin: 0 auto;
@@ -172,15 +163,17 @@ line-height: 1.3em;
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0;
     left: 0;
-    background-color: #cccccc; /* Black*/
+    background-color: #ffffff; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    // border-right: 1px solid black;
+    width: 160px;
+    padding-top: 0;
 }
 
 /* The navigation menu links */
@@ -189,8 +182,8 @@ line-height: 1.3em;
     text-decoration: none;
     font-size: 18px;
     font-weight: 300;
-    color: white;
-    border-bottom: 1px solid black;
+    color: #616161;
+    // border-bottom: 1px solid black;
     margin-top: 1em;
     display: block;
     transition: 0.3s
@@ -226,12 +219,16 @@ line-height: 1.3em;
   border: none;
 }
 
-.sidenav {
-  border-right: 1px solid black;
-  width: 12%;
-  padding-top: 0;
+#side-buy-btn {
+  background-color: #4184F3;
+  display: block;
+  margin: 17px 0 0 18px;
+  width: 90px;
+  height: 3em;
+  font-weight: bold;
+  border-bottom: none;
+  color: white;
 }
-
 
 .bigScreenLinks {
   padding-bottom: 2em;
