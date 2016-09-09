@@ -24,7 +24,7 @@ A user can purchase tickets through the website. Once a user has made a payment 
 - Using Mailgun to email information collect from the backend
 
 ## Live Deployment
-WDIConf is hosted [here](http://www.herokuapp.com/link) on Heroku
+WDIConf is hosted [here](https://staar-conf.herokuapp.com/) on Heroku
 
 ## Wireframe Mockup
 Wireframes are hosted [here](https://postimg.org/gallery/1hyilt5q6/#) on PostImg
