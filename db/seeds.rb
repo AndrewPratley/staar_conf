@@ -66,7 +66,7 @@ t8.save
 t9 = Event.new()
 t9.topic = "NP Hard Problem - softened"
 t9.session_time = "10:45am"
-t9.price = 99999
+t9.price = 90
 t9.seats = 12
 t9.save
 
