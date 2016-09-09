@@ -15,7 +15,6 @@ class TicketsController < ApplicationController
       TicketMailer.welcome_email(@ticket.email).deliver
       # puts "mail sent"
     end
+  end
 
 end
-
-        # TicketMailer.welcome_email(t.email).deliver
